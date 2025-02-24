@@ -1,0 +1,21 @@
+{
+    "name": "alison-adamus/active-record-project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AlisonAdamus\\ActiveRecordProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alisonadamus",
+            "email": "alisaadamus.aa@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "vimeo/psalm": "^6.5"
+    },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
