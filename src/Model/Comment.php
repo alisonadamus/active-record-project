@@ -27,26 +27,6 @@ class Comment extends Entity
         $this->content = $content;
     }
 
-    public function getCreatedAt(): string
-    {
-        return $this->created_at;
-    }
-
-    public function setCreatedAt(string $created_at): void
-    {
-        $this->created_at = $created_at;
-    }
-
-    public function getUpdatedAt(): ?string
-    {
-        return $this->updated_at;
-    }
-
-    public function setUpdatedAt(?string $updated_at): void
-    {
-        $this->updated_at = $updated_at;
-    }
-
     protected static function getTableName(): string
     {
         return 'comments';
